@@ -7,7 +7,7 @@ int main()
 	char scan[13],password[5],f1=0,f2=0;
 
 	int i;
-	init();
+	init();// in delay.c
 	servo_0deg();
 	IODIR0&=~(1<<15);
 
